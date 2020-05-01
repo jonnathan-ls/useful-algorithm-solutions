@@ -1,0 +1,23 @@
+{
+  "name": "data-structure-algorithms",
+  "version": "0.0.0",
+  "description": "algorithms and data structure solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonnathanLS/data-structure-algorithms.git"
+  },
+  "author": "JonnathanLS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonnathanLS/data-structure-algorithms/issues"
+  },
+  "homepage": "https://github.com/JonnathanLS/data-structure-algorithms#readme",
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "typescript": "^3.8.3"
+  }
+}
