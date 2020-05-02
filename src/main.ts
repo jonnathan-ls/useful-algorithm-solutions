@@ -1,4 +1,14 @@
 import { Sieve } from './sieve/algorithm';
 
-console.log(Sieve.of.Eratostenes(100));
+let numCurrent: number = 0;
+let primes: number[] = [];
+let primesFn = (num: number): number[] => {
+    if (num > numCurrent) {
+        primes = Sieve.of.Eratostenes(num);
+        numCurrent = num;
+    }
+    return primes;
+}
+
+export const isPrime = (num: number) => primesFn(num).includes(num);
 

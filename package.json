@@ -6,8 +6,8 @@
   "scripts": {
     "compile": "tsc",
     "build:exec": "tsc && node ./dist/main.js",
-    "exec:js": "node ./dist/main.js",    
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "exec:js": "node ./dist/main.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/JonnathanLS/useful-algorithm-solutions#readme",
   "devDependencies": {
+    "@types/jest": "^25.2.1",
     "@types/node": "^13.13.4",
+    "jest": "^25.5.4",
+    "ts-jest": "^25.4.0",
     "typescript": "^3.8.3"
   }
 }
