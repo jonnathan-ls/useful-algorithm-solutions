@@ -1,13 +1,12 @@
 {
   "name": "useful-algorithm-solutions",
-  "version": "0.0.1",
-  "description": "algorithms and data structure solutions",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "implementations of useful algorithms",
   "scripts": {
     "compile": "tsc",
     "build:exec": "tsc && node ./dist/main.js",
     "exec:js": "node ./dist/main.js",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -22,7 +21,7 @@
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "@types/node": "^13.13.4",
-    "jest": "^25.5.4",
+    "jest": "25",
     "ts-jest": "^25.4.0",
     "typescript": "^3.8.3"
   }
