@@ -1,21 +1,24 @@
 {
-  "name": "data-structure-algorithms",
-  "version": "0.0.0",
+  "name": "useful-algorithm-solutions",
+  "version": "0.0.1",
   "description": "algorithms and data structure solutions",
   "main": "index.js",
   "scripts": {
+    "compile": "tsc",
+    "build:exec": "tsc && node ./dist/main.js",
+    "exec:js": "node ./dist/main.js",    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JonnathanLS/data-structure-algorithms.git"
+    "url": "git+https://github.com/JonnathanLS/useful-algorithm-solutions.git"
   },
   "author": "JonnathanLS",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JonnathanLS/data-structure-algorithms/issues"
+    "url": "https://github.com/JonnathanLS/useful-algorithm-solutions/issues"
   },
-  "homepage": "https://github.com/JonnathanLS/data-structure-algorithms#readme",
+  "homepage": "https://github.com/JonnathanLS/useful-algorithm-solutions#readme",
   "devDependencies": {
     "@types/node": "^13.13.4",
     "typescript": "^3.8.3"

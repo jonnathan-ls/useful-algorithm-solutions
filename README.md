@@ -1,2 +1,3 @@
-# data-structure-algorithms
-Storage repository containing data structure based algorithm solutions
+# Useful Algorithm Solutions
+
+Repository for storing solutions of several useful algorithms
